@@ -1341,37 +1341,7 @@ section,
 .doctors .team-member .member-info {
   padding-left: 30px;
 }
-.team-member .pic {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    background-color: #f8f9fa;
-    margin: 0 auto 15px auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
-  }
 
-  /* Image smaller than circle */
-  .team-member .pic img {
-    width: 75%; /* smaller than the circle */
-    height: auto;
-    object-fit: cover;
-    border-radius: 0; /* remove extra circle */
-  }
-
-  /* Hover effect */
-  .team-member .pic:hover {
-    transform: scale(1.05);
-  }
-
-  .team-member .member-info h4 {
-    margin-top: 10px;
-    font-weight: 600;
-  }
 @media (max-width: 468px) {
   .doctors .team-member .member-info {
     padding: 30px 0 0 0;
@@ -1457,6 +1427,37 @@ section,
 .doctors .team-member .social a+a {
   margin-left: 8px;
 }
+.team-member .pic {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #f8f9fa;
+    margin: 0 auto 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+
+  /* Image smaller than circle */
+  .team-member .pic img {
+    width: 75%; /* smaller than the circle */
+    height: auto;
+    object-fit: cover;
+    border-radius: 0; /* remove extra circle */
+  }
+
+  /* Hover effect */
+  .team-member .pic:hover {
+    transform: scale(1.05);
+  }
+
+  .team-member .member-info h4 {
+    margin-top: 10px;
+    font-weight: 600;
+  }
 
 /*--------------------------------------------------------------
 # Faq Section
