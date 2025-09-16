@@ -1730,6 +1730,14 @@ section,
 .footer a:hover {
   color: #67acde !important; /* Your theme blue (or choose any) */
 }
+footer a {
+  color: #67acde;           /* or choose any visible color */
+  text-decoration: underline; /* makes it look like a link */
+}
+
+/* On hover */
+.footer a:hover {
+  col
 
 
 /*--------------------------------------------------------------
